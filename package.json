@@ -1,0 +1,35 @@
+{
+  "name": "deploy-guardian",
+  "version": "1.0.0",
+  "description": "Pre-deployment security and quality checker for developers",
+  "main": "index.js",
+  "bin": {
+    "deploy-guardian": "./bin/deploy-guardian.js",
+    "dg": "./bin/deploy-guardian.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "security",
+    "deployment",
+    "pre-flight",
+    "secrets",
+    "vulnerabilities",
+    "code-quality",
+    "devops"
+  ],
+  "author": "kennndev",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^10.3.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennndev/deploy-guardian"
+  }
+}
