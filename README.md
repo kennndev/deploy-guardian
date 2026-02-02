@@ -84,17 +84,46 @@ Summary:
 ⛔ NOT SAFE TO DEPLOY - Fix critical issues first!
 ```
 
-## Supported Secrets
+## Supported Secrets (30+ patterns)
 
+**Cloud Providers:**
 - AWS Access Keys
+- Heroku API Keys
+
+**Version Control:**
 - GitHub Personal Access Tokens
-- Stripe API Keys
-- Google OAuth Client IDs
+- NPM Access Tokens
+
+**Payment:**
+- Stripe API Keys (live and test)
+
+**Communication:**
 - Slack Tokens
+- Discord Bot Tokens
+- Twilio API Keys
 - SendGrid API Keys
+- Mailgun API Keys
+
+**Crypto & Wallets:**
+- Bitcoin Private Keys (WIF)
+- Ethereum Private Keys
+- Solana Private Keys
+- Crypto Seed Phrases
+- Private Keys (PEM, SSH, OpenSSH)
+
+**Auth & Tokens:**
+- JWT Tokens
+- Google OAuth Client IDs
+- Firebase Tokens
+- Generic API keys and access tokens
+
+**Infrastructure:**
 - Database URLs (PostgreSQL, MySQL, MongoDB)
-- Generic API keys and tokens
-- Private keys (RSA, EC, DSA)
+- Docker Hub Access Tokens
+
+**Security:**
+- Hardcoded passwords
+- Private keys (RSA, EC, DSA, OpenSSH)
 
 ## Best Practices
 
